@@ -1,7 +1,7 @@
 (function() {
 
   var global = {};
-  global.version = "R_4.4.1";
+  global.version = "R_4.4.2";
   global.issueTrackingUrl = "https://github.com/rmxro/Jira-Issue-Card-Printer";
 
   global.isDev = document.currentScript == null;
@@ -102,7 +102,7 @@
     console.log("Init...0");
 
     addStringFunctions();
-    console.log("Init...1");
+    console.log("Init... " + version);
 
     loadSettings();
     console.log("Init...2");
